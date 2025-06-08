@@ -1,6 +1,11 @@
 # Hillel-NPM
 
+Конечно! Вот версия без «Why»:
+
+---
+
 ## 🛠 Project Setup Steps
+
 ### 1. Git + GitHub
 
 Cloned the repository from GitHub to the local machine using:
@@ -9,7 +14,7 @@ Cloned the repository from GitHub to the local machine using:
 git clone <repository-link>
 ```
 
-**Why:** To work on the project locally and later push changes back to GitHub.
+To work on the project locally and later push changes back to GitHub.
 
 ---
 
@@ -17,7 +22,7 @@ git clone <repository-link>
 
 Created an `index.js` file and added code from a previous homework assignment.
 
-**Why:** This is the entry point of the project where the main JavaScript logic lives.
+This is the entry point of the project where the main JavaScript logic lives.
 
 ---
 
@@ -31,7 +36,7 @@ npm init
 
 This generated the `package.json` file.
 
-**Why:** To make the project an npm project, allowing dependency management and custom scripts.
+Makes the project an npm project, allowing dependency management and custom scripts.
 
 ---
 
@@ -43,7 +48,7 @@ Installed lodash via:
 npm install lodash
 ```
 
-**Why:** Lodash is a popular utility library for working with arrays, objects, and numbers. Used here as practice.
+Lodash is a popular utility library for working with arrays, objects, and numbers. Used here as practice.
 
 ---
 
@@ -57,7 +62,7 @@ node_modules/
 .idea/
 ```
 
-**Why:** To avoid uploading unnecessary or heavy files to the GitHub repository.
+To avoid uploading unnecessary or heavy files to the GitHub repository.
 
 ---
 
@@ -69,7 +74,7 @@ Installed Prettier and ran:
 npx prettier --write .
 ```
 
-**Why:** To automatically format code and keep a consistent coding style across the project.
+Automatically formats code to keep a consistent style across the project.
 
 ---
 
@@ -83,7 +88,7 @@ npx eslint --init
 
 Ran ESLint on project files and fixed the warnings.
 
-**Why:** To write clean, readable code and catch potential issues early.
+Helps write clean, readable code and catch potential issues early.
 
 ---
 
@@ -97,4 +102,8 @@ git commit -m "Project setup"
 git push
 ```
 
-**Why:** To back up the project and share progress with others, such as your instructor.
+Backs up the project and shares progress with others, such as your instructor.
+
+---
+
+You can also add convenient scripts like `npm run format` and `npm run lint` in your `package.json` to automate formatting and linting.
