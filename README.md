@@ -1,9 +1,5 @@
 # Hillel-NPM
 
-Конечно! Вот версия без «Why»:
-
----
-
 ## 🛠 Project Setup Steps
 
 ### 1. Git + GitHub
@@ -103,7 +99,3 @@ git push
 ```
 
 Backs up the project and shares progress with others, such as your instructor.
-
----
-
-You can also add convenient scripts like `npm run format` and `npm run lint` in your `package.json` to automate formatting and linting.
